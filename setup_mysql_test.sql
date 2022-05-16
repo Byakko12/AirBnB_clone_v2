@@ -5,4 +5,4 @@ CREATE USER 'hbnb_test'@'localhost' IDENTIFIED BY 'hbnb_test_pwd';
 -- SELECT PRIVILIGE on performance_schema db
 GRANT SELECT ON performance_schema. * TO 'hbnb_test'@'localhost';
 -- privileges on hbnb_test
-GRANT ALL PRIVILEGES ON hbnb_test. * TO 'hbnb_test_db '@'localhost';
+GRANT ALL PRIVILEGES ON hbnb_test_db . * TO 'hbnb_test'@'localhost';
